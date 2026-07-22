@@ -5,13 +5,13 @@ function Navbar({ darkMode, setDarkMode }) {
   return (
     <nav className="navbar">
       <div className="logo">
-          <div className="logo-circle">    
-        <a href="projects" className="btn"> Al
+             
+        <a href="https://wether-app-client-fi15.vercel.app/" className="btn"> Al
             <span className="tech-focus">ema </span> yehu
             <span className="tech-highlight">Ge</span>tnet
       
          </a>
-      </div>
+      
       </div>
 
       <ul className="nav-links">

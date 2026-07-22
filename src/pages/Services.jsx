@@ -1,5 +1,4 @@
 import bg from "../assets/service.png";
-import React from "react";
 
 function Services() {
   return (

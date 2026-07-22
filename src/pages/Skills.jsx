@@ -1,7 +1,4 @@
 import bg from "../assets/skill.png";
-import React from "react";
-
-
 function Skills() {
   const skills = [
     "HTML",
@@ -12,6 +9,17 @@ function Skills() {
     "TypeScript", 
     "Git",
     "C#",
+     "php",
+    "python",
+    "nodejs",
+    "expressjs",
+    "mongoos",
+    "databese",
+   "postgress",
+     "potman",
+     "cpanal",
+     "api",
+     
   ];
 
   return (

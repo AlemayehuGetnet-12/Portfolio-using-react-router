@@ -246,11 +246,9 @@ body {
   transform: translate(-5px, -5px);
   filter: grayscale(0%) contrast(100%);
 }
-
 .tech-image-frame:hover::after {
-  transform: translate(5px, 5px);
+ transform: translate(5px, 5px);
 }
-
 /* --- Responsive Adaptations --- */
 @media (max-width: 950px) {
   .tech-about-container {
@@ -420,7 +418,6 @@ body {
   background-color: #ffffff;
   box-shadow: 0 0 0 3px rgba(0, 112, 243, 0.15);
 }
-
 /* Interactive Submit Button */
 .contact-form .btn {
   width: 100%;
@@ -434,22 +431,18 @@ body {
   cursor: pointer;
   transition: background-color 0.2s ease, transform 0.1s ease;
 }
-
 .contact-form .btn:hover {
   background-color: #0056b3;
 }
-
 .contact-form .btn:active {
   transform: scale(0.98);
 }
-
 /* Full Responsive Breakdown for Mobile Phone Screens */
 @media (max-width: 768px) {
   .contact-container {
     grid-template-columns: 1fr; /* Turns into a vertical single stack layout */
     gap: 40px;
   }
-  
   .contact-blur-overlay {
     padding: 40px 15px;
   }
@@ -491,7 +484,6 @@ body {
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
   text-align: center;
 }
-
 /* ==========================================================================
    Section Typography
    ========================================================================== */
@@ -504,7 +496,6 @@ body {
   position: relative;
   display: inline-block;
 }
-
 /* Underline accent accentuating the title */
 .overlay h2::after {
   content: '';
@@ -517,7 +508,6 @@ body {
   background: linear-gradient(90deg, #3b82f6, #06b6d4); /* Electric Cyan/Blue gradient */
   border-radius: 2px;
 }
-
 /* ==========================================================================
    Responsive CSS Grid 
    ========================================================================== */
@@ -527,7 +517,6 @@ body {
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   gap: 30px;
 }
-
 /* ==========================================================================
    Service Cards
    ========================================================================== */
@@ -541,7 +530,6 @@ body {
   position: relative;
   overflow: hidden;
 }
-
 .service-card h3 {
   color: #f8fafc;
   font-size: 1.35rem;
@@ -549,13 +537,11 @@ body {
   margin-bottom: 12px;
   transition: color 0.3s ease;
 }
-
 .service-card p {
   color: #94a3b8; /* Muted slate for clean hierarchy */
   font-size: 0.95rem;
   line-height: 1.6;
 }
-
 /* ==========================================================================
    Micro-interactions & Hover States
    ========================================================================== */
@@ -565,19 +551,16 @@ body {
   border-color: rgba(6, 182, 212, 0.4); /* Glow matching title tint */
   box-shadow: 0 12px 30px rgba(6, 182, 212, 0.15);
 }
-
 .service-card:hover h3 {
   color: #06b6d4; /* Highlights title on card hover */
 }
-
 /* ==========================================================================
    Media Queries (Responsive Adjustments)
    ========================================================================== */
 @media (max-width: 768px) {
   .services-section {
     padding: 40px 16px;
-  }
-  
+  } 
   .overlay {
     padding: 40px 20px;
     border-radius: 16px;
@@ -600,16 +583,13 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
- 
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed; 
-  
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #ffffff;
 }
-
 /* Section Title */
 .section-title {
   font-size: 2.5rem;
@@ -619,7 +599,6 @@ body {
   border-bottom: 3px solid #3b82f6; 
   padding-bottom: 10px;
 }
-
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -628,8 +607,6 @@ body {
   max-width: 1200px;
   padding: 10px;
 }
-
-
 .project-card {
   background: rgba(30, 41, 59, 0.7);
   backdrop-filter: blur(10px); 
@@ -642,21 +619,16 @@ body {
   justify-content: space-between;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-
-
 .project-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
   border-color: #3b82f6;
 }
-
-
 .project-title {
   font-size: 1.3rem;
   margin: 0 0 12px 0;
   color: #f8fafc;
 }
-
 .project-description {
   font-size: 0.95rem;
   color: #cbd5e1;
@@ -664,7 +636,6 @@ body {
   margin-bottom: 20px;
   flex-grow: 1; 
 }
-
 .github-link {
   display: inline-block;
   text-align: center;
@@ -677,7 +648,6 @@ body {
   font-weight: 600;
   transition: background-color 0.2s ease;
 }
-
 .github-link:hover {
   background-color: #2563eb;
 }
@@ -707,14 +677,12 @@ text-align: center;
   margin-bottom: 40px;
   color: #60a5fa;
 }
-
 .grid,
 .skills-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 25px;
 }
-
 .card {
   background: #1e293b;
   padding: 25px;
@@ -722,11 +690,9 @@ text-align: center;
   transition: 0.3s;
   text-align: center;
 }
-
 .card:hover {
   transform: translateY(-8px);
 }
-
 .contact-form textarea {
   height: 150px;
   resize: none;
@@ -745,7 +711,6 @@ text-align: center;
   background: #1e293b;
   color: white;
 }
-
 .btn {
   margin-top: 20px;
   padding: 12px 25px;
@@ -782,8 +747,6 @@ text-align: center;
   background: rgba(15, 23, 42, 0.75); /* Deep slate tint. Change to rgba(255,255,255,0.4) if you want it light */
   z-index: 1;
 }
-
-
 .skills-container {
   position: relative;
   z-index: 2; 
@@ -792,8 +755,6 @@ text-align: center;
   margin: 0 auto;
   text-align: center;
 }
-
-
 .skills-container h2 {
   font-size: 2.75rem;
   font-weight: 800;
@@ -803,8 +764,6 @@ text-align: center;
   position: relative;
   display: inline-block;
 }
-
-
 .skills-container h2::after {
   content: '';
   position: absolute;
@@ -858,8 +817,7 @@ text-align: center;
     font-size: 1rem;
   }
 }
- /* Home*/
- 
+            /* Home*/
 .home {
   min-height: 100vh;
   display: flex;
@@ -871,7 +829,14 @@ text-align: center;
     #7c3aed
   );
 }
+.container{
+  max-width: 90%;
+  max-height: 90%;
+  margin: 7px;
+  padding: 3px;
+  background-color: #397fad;
 
+}
 .home h1 {
   font-size: 4rem;
   margin-bottom: 10px;
@@ -923,47 +888,13 @@ text-align: center;
   color:rgb(161, 44, 23);
  cursor: pointer;
 }
-
-/* Profile image container */
-.image-circle {
-  width: 320px;
-  height: 320px;
-  border-radius: 50%;
-  padding: 8px;
-  position: relative;
-  /* Rotating border */
-  background: conic-gradient(
-    #00d4ff,
-    #0077ff,
-    #7b2cff,
-    #00d4ff
-  );
-
-  animation: rotate 5s linear infinite;
-}
-.image-circle img {
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
-  object-fit: cover;
-  background: white;
-  animation: float 3s ease-in-out infinite;
-}
-@keyframes rotate {
-  100% {
-    transform: rotate(360deg);
-  }
-}
-@keyframes float {
-  0% {
-    transform: translateY(0px);
-  }
-  50% {
-    transform: translateY(-15px);
-  }
-  100% {
-    transform: translateY(0px);
-  }
+.home-image{
+  display: flex;
+  list-style: none;
+ 
+}l
+.section-title{
+  color: rgb(22, 5, 119);
 }
 
 /* Componentes*/
@@ -991,56 +922,6 @@ text-align: center;
 }
 
 /* Logo */
-
-.logo-circle {
-  width: 100%px;
-  height: 100px;
-  border-radius: 50%;
-  padding: 8px;
-  position: relative;
-  /* Rotating border */
-  background: conic-gradient(
-    #00d4ff,
-    hsl(266, 93%, 54%),
-    #e70c1e,
-    #58d80e
-  );
-
-  animation: rotate 5s linear infinite;
-}
-/* Profile image */
-.logo-circle h2 {
-  width: 100%;
-  height: 100;
-  border-radius: 100%;
-  object-fit: cover;
-  background: tomato;
-
-  /* Floating effect */
-  animation: float 3s ease-in-out infinite;
-}
-
-/* Rotate the outer circle */
-@keyframes rotate {
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-/* Move logo up and down */
-@keyframes float {
-  0% {
-    transform: translateY(0px);
-  }
-
-  50% {
-    transform: translateY(-15px);
-  }
-
-  100% {
-    transform: translateY(0px);
-  }
-}
 .logo {
   display: flex;
   align-items: center;

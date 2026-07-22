@@ -1,5 +1,5 @@
 import bg from "../assets/project.png";
-import React from "react";
+
 
 function Projects() {
   const projects = [
@@ -7,17 +7,17 @@ function Projects() {
       title: "Portfolio Website",
       description: "Personal portfolio built with React.",
       github:
-       "https://github.com/yourusername/react-router-portfolio",
+       "https://alemayehu-portfolio-alex.vercel.app/",
     },
     {
-      title: "Calculator",
-      description: "Calculation using mathematical operations.", // Fixed typo
-      github: "https://github.com/AlemayehuGetnet-12/Unlimited-calculator",
+      title: "News-app",
+      description: "Implemented a clean, modern UI with Tailwind CSS / Global Api..", // Fixed typo
+      github: ": https://alemayehu-news-app.vercel.app/",
     },
     {
-      title: "To_Do_ List _App", // Fixed typo
-      description: "Task management application.",
-      github: "https://https://github.com/AlemayehuGetnet-12/to-do-list",
+      title: "counter", // Fixed typo
+      description: "Counter with multiple featur management application.",
+      github: "https://alemayehu-counter-with-multiple-feature.vercel.app/",
     },
     {
       title: "E-Commerce Website",
@@ -27,12 +27,12 @@ function Projects() {
     {
       title: "Digital Clock & Countdown", // Fixed typo
       description: "Online digital clock and countdown timer built with React.", // Fixed typo
-      github: "https://github.com/AlemayehuGetnet-12/Digital-clock-and-Down-counter"
+      github: ": https://alemayehu-digital-clock.-and-down-counter.vercel.app/"
     },
     {   
-      title: "Student Grade Calculation",
-      description: "Online Student grade calculationbuilt with html,css and javasript.",
-      github: "https://github.com/AlemayehuGetnet-12/student-grade-calculation",
+      title: "Currency-Convertor",
+      description: "Online Currency Convertor calculation built with reacts",
+      github: "https://alex-currency-coverter.vercel.app/",
     },
   ];
 
@@ -56,7 +56,7 @@ function Projects() {
               target="_blank"
               rel="noopener noreferrer"
             > 
-              View GitHub Repository
+              View Project
             </a>
           </div>
         ))}

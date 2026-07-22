@@ -1,6 +1,4 @@
 import bg from "../assets/contact.png";
-import React from "react";
-
 function Contact() {
   return (
     <section 
@@ -66,7 +64,7 @@ function Contact() {
                   <span className="icon">✈️</span>
                   <div className="card-text">
                     <strong>Telegram</strong>
-                    <span>@GishAlex</span>
+                    <span>@Alemayehu3175</span>
                   </div>
                 </a>
               </li>

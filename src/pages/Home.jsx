@@ -1,8 +1,7 @@
 import cvFile from "../assets/CV.pdf";
-import profileImage from "../assets/image/photo.png";
+import profileImage from "../assets/image/12.png";
+import profile from "../assets/image/10.png";
 import bg from "../assets/home.png";
-import React from "react";
-
 
 function Home() {
   return (
@@ -26,7 +25,6 @@ function Home() {
           <div className="track-right">
             <marquee direction="right" 
             scrollAmount="10"> 
-          
             <h1>Wellcome to know me . I'm Alemayehu &nbsp;&nbsp;(just as Alex) &nbsp;!!!&nbsp; </h1>
              </marquee>
           </div>
@@ -42,7 +40,7 @@ function Home() {
           <a href={cvFile} download="Alemayehu_CV.pdf" className="cv-btn">
             Download CV
           </a>
-          <a href="#projects" className="p-btn">
+          <a href="https://alemayehu-news-app.vercel.app/" className="p-btn">
             View Projects
           </a>
         </div>
@@ -56,11 +54,11 @@ function Home() {
           </div>
         </div>
 
-        <div className="home-image">
-          <div className="image-circle">
-            <img src={profileImage} alt="Alemayehu" />
-          </div>
-        </div>
+        <ul className="home-image">
+      <li><img src={profileImage} alt="Alemayehu" /></li> 
+        <li><img src={profile} alt="Alemayehu" /></li> 
+        
+        </ul>
         
       </div>
     </section>
