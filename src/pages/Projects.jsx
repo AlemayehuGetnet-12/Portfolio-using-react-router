@@ -12,7 +12,7 @@ function Projects() {
     {
       title: "News-app",
       description: "Implemented a clean, modern UI with Tailwind CSS / Global Api..", // Fixed typo
-      github: ": https://alemayehu-news-app.vercel.app/",
+      github: " https://alemayehu-news-app.vercel.app/",
     },
     {
       title: "counter", // Fixed typo
@@ -22,12 +22,12 @@ function Projects() {
     {
       title: "E-Commerce Website",
       description: "Online shopping platform built with React.",
-      github: "https://github.com/AlemayehuGetnet-12/ecommerce-website",
+      github: "https://merkato-store-web.vercel.app",
     },
     {
       title: "Digital Clock & Countdown", // Fixed typo
       description: "Online digital clock and countdown timer built with React.", // Fixed typo
-      github: ": https://alemayehu-digital-clock.-and-down-counter.vercel.app/"
+      github: " https://alemayehu-digital-clock-and-down-counter.vercel.app/"
     },
     {   
       title: "Currency-Convertor",
